@@ -76,6 +76,8 @@ KUPIKI_SQL_COUNTERS=Y
 # Set value to Y or N
 KUPIKI_ALLOW_REGISTER=Y
 
+ln -s /usr/bin/docker-compose /usr/local/bin/docker-compose
+
 # *************************************
 #
 # PLEASE DO NOT MODIFY THE LINES BELOW
