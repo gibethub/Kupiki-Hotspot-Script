@@ -10,6 +10,7 @@ LOGPATH="/var/log/"
 # Password for user root (MySql/MariaDB not system)
 MYSQL_PASSWORD="gibeth7787"
 # Name of the hotspot that will be visible for users/customers
+# just to check if it will work with ubuntu (all failed - rpi2, guess rpi2 not compatible)
 HOTSPOT_NAME="justhotspot"
 # IP of the hotspot
 HOTSPOT_IP="192.168.10.1"
