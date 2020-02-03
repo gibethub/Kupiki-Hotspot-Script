@@ -24,8 +24,8 @@ Once the script is executed, you will get :
 
 The installed system have been secured using [ANSSI security recommendation](https://www.ssi.gouv.fr/uploads/IMG/cspn/anssi-cspn_2009-04fr.pdf) and is compliant with french laws about free wifi hotspots ([R. 10-13 et R. 10-14 , IV of CPCE](https://www.cdse.fr/wifi-et-conservation-des-donnees))
 
-Support my work
-=======
+Support his work
+================
 
 Love Kupiki Hotspot or want to support it? Check out my [patreon page](https://www.patreon.com/pihomeserver) :)
 
@@ -50,7 +50,7 @@ Installation
 You just have to download the script, edit it to update it's parameters, execute and wait ... If the wifi on the Raspberry is not already configured, don't worry, the script will do it
 
 - Download the script with the following command
-` git clone https://github.com/pihomeserver/Kupiki-Hotspot-Script.git`
+` git clone https://github.com/gibethub/Kupiki-Hotspot-Script.git`
 - Edit the script and update the first lines to define your own configuration (take care that an ethernet link is required) **[Please read the wiki for more help about parameters](https://github.com/pihomeserver/Kupiki-Hotspot-Script/wiki)**
 - Execute the script using the following command :
 ` sudo chmod +x pihotspot.sh && sudo ./pihotspot.sh `
