@@ -8,14 +8,14 @@ LOGNAME="kupiki_hotspot.log"
 # be sure to add a / at the end of the path
 LOGPATH="/var/log/"
 # Password for user root (MySql/MariaDB not system)
-MYSQL_PASSWORD="pihotspot"
+MYSQL_PASSWORD="gibeth7787"
 # Name of the hotspot that will be visible for users/customers
-HOTSPOT_NAME="kupikihotspot"
+HOTSPOT_NAME="justhotspot"
 # IP of the hotspot
 HOTSPOT_IP="192.168.10.1"
 # Wi-fi code country. Use above link to find yours
 # https://www.cisco.com/c/en/us/td/docs/wireless/wcs/3-2/configuration/guide/wcscfg32/wcscod.html
-WIFI_COUNTRY_CODE="FR"
+WIFI_COUNTRY_CODE="PH"
 # Use HTTPS to connect to web portal
 # Set value to Y or N
 HOTSPOT_HTTPS="N"
@@ -64,7 +64,7 @@ MAC_AUTHENTICATION_ENABLED="N"
 MAC_AUTHENTICATION_PASSWORD="123456"
 # Install web frontend of Kupiki Hotspot
 # Set value to Y or N
-INSTALL_KUPIKI_ADMIN=N
+INSTALL_KUPIKI_ADMIN=Y
 # Install Cron job for the hotspot updater. Will be executed every sunday at 8am (system time)
 # Set value to Y or N
 ADD_CRON_UPDATER=Y
